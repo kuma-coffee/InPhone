@@ -25,25 +25,42 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
 
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="/assets/css/hompageStyle.css" />
+
     <title>Homepage</title>
   </head>
   <body class="bg-primary">
     <!--Header-->
-    <nav class="navbar navbar-expand-md bg-white text-center p-2 shadow-sm">
+    <nav
+      class="navbar navbar-expand-lg fixed-top bg-light text-center p-2 shadow-sm"
+    >
       <div class="container">
         <a class="navbar-brand" href="#"
-          ><img src="./assets/logo.png" width="100" alt="logo"
+          ><img src="/assets/icons/logo.png" width="100" alt="logo"
         /></a>
-        <div class="collapse navbar-collapse">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link fw-semibold text-dark link-primary" href="#"
                 >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-semibold text-dark link-primary" href="#"
-                >Jenis - Jenis</a
               >
             </li>
             <li class="nav-item">
@@ -53,58 +70,308 @@
             </li>
             <li class="nav-item">
               <a class="nav-link fw-semibold text-dark link-primary" href="#"
+                >Jenis - Jenis</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold text-dark link-primary" href="#"
                 >Tips</a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link fw-semibold text-dark link-primary" href="#"
-                >Hubungi Kami</a
+                >Tentang Kami</a
               >
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
     <!--Body-->
-    <div class="container bg-light">
-      <div class="row align-items-center p-5">
-        <div class="col">
-          <h2>Apa itu InPhone?</h2>
-          <p class="text-break">
-            InPhone adalah sebuah website rekomendasi Handphone, yang melihat,
-            mengambil dan memilah dari sumber - sumber terpercaya dan
-            merekomendasikannya pada masyarakat.
-          </p>
+    <!-- Carousel -->
+    <div class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/assets/images/bg-1.jpg"
+            alt="Background Image 1"
+            class="d-block"
+            style="width: 100%"
+          />
+          <div class="carousel-caption">
+            <h2>Apa itu InPhone?</h2>
+            <p class="text-break">
+              InPhone adalah sebuah website rekomendasi Handphone, yang melihat,
+              mengambil dan memilah dari sumber - sumber terpercaya dan
+              merekomendasikannya pada masyarakat.
+            </p>
+            <a href="#" class="btn btn-primary mt-4">Learn More</a>
+          </div>
         </div>
-        <div class="col">
-          <img src="./assets/bg-2.png" alt="icon" style="width: 600px" />
+        <div class="carousel-item">
+          <img
+            src="/assets/images/bg-2.jpg"
+            alt="Background Image 2"
+            class="d-block"
+            style="width: 100%"
+          />
+          <div class="carousel-caption">
+            <h2>Apa itu InPhone?</h2>
+            <p class="text-break">
+              InPhone adalah sebuah website rekomendasi Handphone, yang melihat,
+              mengambil dan memilah dari sumber - sumber terpercaya dan
+              merekomendasikannya pada masyarakat.
+            </p>
+            <a href="#" class="btn btn-primary mt-4">Learn More</a>
+          </div>
         </div>
-      </div>
-      <div class="row align-items-center p-5">
-        <div class="col">
-          <img src="./assets/bg-1.jpg" alt="icon" style="width: 600px" />
-        </div>
-        <div class="col">
-          <h2>Pengertian Smartphone</h2>
-          <p class="text-break">
-            Handphone adalah telepon genggam atau telepon seluler pintar yang
-            dilengkapi dengan fitur yang mutakhir dan berkemampuan tinggi
-            layaknya sebuah komputer. Pada Handphone membutuhkan operating
-            system (OS), dan Handphone sendiri memiliki beragam OS, namun yang
-            paling popular adalah IOS dan Android.
-          </p>
+        <div class="carousel-item">
+          <img
+            src="/assets/images/bg-3.jpg"
+            alt="Background Image 3"
+            class="d-block"
+            style="width: 100%"
+          />
+          <div class="carousel-caption">
+            <h2>Apa itu InPhone?</h2>
+            <p class="text-break">
+              InPhone adalah sebuah website rekomendasi Handphone, yang melihat,
+              mengambil dan memilah dari sumber - sumber terpercaya dan
+              merekomendasikannya pada masyarakat.
+            </p>
+            <a href="#" class="btn btn-primary mt-4">Learn More</a>
+          </div>
         </div>
       </div>
     </div>
 
+    <!-- Motto Inphone -->
+    <section id="motto" class="motto section-padding bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="img-area">
+              <img
+                src="/assets/images/bg-8.jpg"
+                alt="image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6 p-5 m-md-auto">
+            <div class="about-text">
+              <h2>
+                Kami Memberikan Informasi Terbaru, Terpercaya dan Terlengkap
+              </h2>
+              <p class="motto-text">
+                InPhone selalu melakukan pembaharuan setiap saat pada konten
+                yang kami miliki, mengambil dari sumber - sumber terpercaya, dan
+                menyajikan konten secara lengkap.
+              </p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rekomendasi -->
+    <section
+      id="rekomendasi"
+      class="rekomendasi section-padding p-lg-5"
+      style="background-color: #ecfcff"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h2>Rekomendasi</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img
+                    src="/assets/images/best-2019.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <h3 class="card-title">Ponsel Terbaik 2019</h3>
+                <p class="lead">
+                  Rekomendasi ponsel - ponsel terbaik dari yang terbaik pada
+                  tahun 2019. Yuk simak selengkapnya pada dengan klik di bawah
+                  ini!
+                </p>
+                <button class="btn bg-primary text-white">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img
+                    src="/assets/images/best-2020.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <h3 class="card-title">Ponsel Terbaik 2020</h3>
+                <p class="lead">
+                  Rekomendasi ponsel - ponsel terbaik dari yang terbaik pada
+                  tahun 2020. Yuk simak selengkapnya pada dengan klik di bawah
+                  ini!
+                </p>
+                <button class="btn bg-primary text-white">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-light text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img
+                    src="/assets/images/best-2021.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <h3 class="card-title">Ponsel Terbaik 2021</h3>
+                <p class="lead">
+                  Rekomendasi ponsel - ponsel terbaik dari yang terbaik pada
+                  tahun 2019. Yuk simak selengkapnya pada dengan klik di bawah
+                  ini!
+                </p>
+                <button class="btn bg-primary text-white">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Jenis - Jenis -->
+    <section id="jenis" class="jenis section-padding bg-white p-lg-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 p-5 m-md-auto">
+            <div class="about-text">
+              <h2>Jenis - Jenis Handphone</h2>
+              <p class="text-break">
+                Handphone pada zaman sekarang ini terbagi atas beberapa jenis,
+                seperti handpone umum, handphone gaming, handphone foldable dan
+                handphone prototype.
+              </p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+          <div class="col-lg-3 g-0">
+            <div class="img-area">
+              <img
+                src="/assets/images/jenis-2.jpg"
+                alt="image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 g-0">
+            <div class="img-area">
+              <img
+                src="/assets/images/jenis-3.jpg"
+                alt="image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tips -->
+    <section
+      class="tips section-padding p-lg-5"
+      id="tips"
+      style="background-color: #ecfcff"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-2">
+            <div class="card text-center">
+              <div class="card-body">
+                <i class="bi bi-cpu fa-5x"></i>
+                <h3 class="card-title py-2">CPU</h3>
+              </div>
+              <p class="ps-3 pe-3">
+                Butuh hp yang anti lemot sehingga bisa multitasking entah untuk
+                bermain games atau bekerja? ...
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-2">
+            <div class="card text-center">
+              <div class="card-body">
+                <i class="bi bi-phone fa-5x"></i>
+                <h3 class="card-title py-2">Desain</h3>
+                <p>
+                  Sebelum mencari tahu rincian update harga hp terbaru, kenali
+                  lebih dahulu bagaimana desain ...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-2">
+            <div class="card text-center">
+              <div class="card-body">
+                <i class="bi bi-camera fa-5x"></i>
+                <h3 class="card-title py-2">Kamera</h3>
+                <p>
+                  Layar menjadi bagian paling utama yang tidak bisa disepelekan.
+                  Bayangkan ...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-2">
+            <div class="card text-center">
+              <div class="card-body">
+                <i class="bi bi-currency-dollar fa-5x"></i>
+                <h3 class="card-title py-2">Harga</h3>
+                <p>
+                  Setelah mengetahui semua informasi di atas, cari tahu kisaran
+                  harga ponsel barunya. Beberapa ...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-3 col-lg-4">
+            <div class="about-text p-4 m-md-auto">
+              <h2>Tips - Tips Memilih Handphone</h2>
+              <p class="text-break">
+                Dalam memilih handphone anda harus memperhatikan beberapa hal
+                berikut seperti CPU atau processor, desain, RAM dan ROM,
+                display, kamera, baterai dan yang paling penting, yaitu harga.
+              </p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--Footer-->
     <nav
-      class="container-fluid bg-info text-white d-flex justify-content-around align-items-center p-2 pt-4"
+      class="container-fluid bg-dark text-white d-flex justify-content-around align-items-center p-2 pt-4"
     >
       <!--Social Media-->
       <div class="">
         <a class="nav-brand" href="#"
-          ><img src="./assets/logo.png" width="100"
+          ><img src="/assets/icons/logo.png" width="100"
         /></a>
         <p>Best mobile recommendation website.</p>
       </div>
