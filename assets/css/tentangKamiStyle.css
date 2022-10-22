@@ -1,0 +1,39 @@
+body {
+  background: #f1fbff;
+}
+.section-padding {
+  padding-top: 126px;
+  padding-bottom: 50px;
+}
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+  background: #fff;
+}
+.tentangKami .container {
+  padding-right: 175px;
+  padding-left: 175px;
+  box-shadow: 15px 15px 40px rgba(0.15, 0.15, 0.15, 0.15);
+}
+.img-jenis {
+  width: 700px;
+  height: 250px;
+  object-fit: cover;
+  object-position: 0 0%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .tentangKami .container {
+    padding: 70px;
+  }
+
+  .img-area img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .tentangKami .container {
+    padding: 35px;
+  }
+}
