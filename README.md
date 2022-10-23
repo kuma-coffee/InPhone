@@ -2,4 +2,5 @@
 # InPhone
 Websites that recommend smartphones
 
-Website ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Web.
+- This website made using bootstrap 5
+- Website ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Web.
