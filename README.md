@@ -1,3 +1,4 @@
+![alt text](https://github.com/kuma-coffee/InPhone/blob/main/assets/icons/logo.png?raw=true)
 # InPhone
 Websites that recommend smartphones
 
